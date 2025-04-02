@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(images/bg-img.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px
+    width 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    padding: 6px 13px;
+    font-size: 20px;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(56, 22, 22);
+    border-radius: 1px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center; 
+}
+.center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center; 
+}
+.center button{
+    margin: 35px 28px;
+    text-align: center;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(80, 35, 35);
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .4s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: rgb(132, 55, 55);
+}
